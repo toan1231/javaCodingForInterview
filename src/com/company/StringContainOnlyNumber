@@ -1,0 +1,34 @@
+package makingMoneyOnline;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import makingMoneyOnline.Main.toan;
+
+public class StringContainOnlyDigitOrNot {
+
+	public static void main(String[] args) {
+	
+		try {		String name="1234";
+		int s=Integer.valueOf(name);
+		System.out.println("this is digit string and the value is: "+s);
+		
+		
+		
+			
+		}catch(Exception e) {
+			System.out.println("this is not all digit string");
+			
+		}
+		
+		
+	
+}
+}
+
+
+
+
+	
+
+
