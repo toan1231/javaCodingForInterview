@@ -1,0 +1,30 @@
+package makingMoneyOnline;
+
+import makingMoneyOnline.Main.toan;
+
+public class IsWordHasUpperCase {
+
+	public static void main(String[] args) {
+		String name="chauT";
+		System.out.println(method(name));
+
+ }
+	public static String method(String str) {
+		String statement="";
+		for(int i=0;i<str.length();i++) {
+			char charr=str.charAt(i);
+			Character charrClass=charr;
+			if(charrClass.isUpperCase(charr)==true) {
+				statement="this has uppercase";
+			}else {
+				statement="this has no uppercase";
+			};
+			
+		}
+		
+		return statement;
+		
+	}
+	
+}
+
