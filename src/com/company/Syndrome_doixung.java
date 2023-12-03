@@ -1,6 +1,6 @@
 package com.company;
 
-public class Syndrome_doixung {
+public class Palindrome {
     public static void main(String[] args) {
         boolean bobo=true;
         String A="malaalam";//abcdMdcba   abcddcba
