@@ -22,7 +22,7 @@ public class palindrome {
 		}
 
 		public static String method(String str) {
-			String statement="";
+			String statement="";;
 			StringBuilder builder=new StringBuilder(str);
 			String name=builder.reverse().toString();
 			if(name.equals(str)) {
