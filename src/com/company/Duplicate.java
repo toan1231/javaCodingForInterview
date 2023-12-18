@@ -3,7 +3,7 @@ package com.company;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Duplicate {
+public class DuplicateOrNot {
     public static void main(String[] args) {
         int[]a={1,2,3,3};
         System.out.println(method(a));
