@@ -27,7 +27,7 @@ public class findTheSmallestSubstring {
 		for(int i=0;i<a.length;i++) {
 			stringAdd+=a[i];
 			
-		//	System.out.println(str.substring(i, i+a.length));
+		//	why i<str.length()-2 below i don't understand but remember
 			
 		}
 		for(int i=0;i<str.length()-2;i++) {
