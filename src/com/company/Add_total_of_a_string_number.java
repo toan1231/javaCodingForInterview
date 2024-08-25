@@ -1,6 +1,6 @@
 package com.company;
 
-public class Add_total_of_a_string_number {
+public class Add_total_of_a_odd_or_even {
 
 	public static void main(String[] args) {
 		
